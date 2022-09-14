@@ -1,1 +1,1 @@
-# meme-generator
+Create a meme generator using HTML, CSS and Javascript.
