@@ -1,0 +1,82 @@
+body {
+    padding: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #50c1d7;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 4px;
+    border: 2px solid #5a4c4c;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    background-color: #918989;
+    border: 1px solid #5a4c4c;
+}
+
+.meme {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    margin: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #eeeeee;
+    letter-spacing: 2px;
+}
+
+#meme-form {
+    color: #595c5c;
+    padding: 1em;
+}
+
+#meme-form {
+    width: 100%;
+}
+
+#form {
+    margin: 8px;
+    background-color: #f0e7e7;
+    padding: 5px;
+}
+
+#memes {
+    padding-top: 5px;
+    display: flex;
+}
+
+.meme:hover img {
+    opacity: 0.5;
+}
+
+.meme img {
+    width: 100%;
+}
+
+.top {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.bottom {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.remove {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    font-size: 14px;
+    color: #373939;
+    transform: translate(-50%, -50%);
+}
