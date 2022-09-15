@@ -28,14 +28,15 @@ button:hover {
 }
 
 .meme {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
     text-align: center;
     width: 400px;
     margin: 10px;
-    font-size: 14px;
+    font-size: 50px;
     text-transform: uppercase;
     color: #eeeeee;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 #meme-form {
@@ -61,6 +62,10 @@ button:hover {
     opacity: 0.5;
 }
 
+.meme:hover .remove {
+    opacity: 0.8;
+}
+
 .meme img {
     width: 100%;
 }
@@ -84,7 +89,7 @@ button:hover {
     opacity: 0;
     top: 50%;
     left: 50%;
-    font-size: 140px;
+    font-size: 300px;
     color: #373939;
     transform: translate(-50%, -50%);
 }

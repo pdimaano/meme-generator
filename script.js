@@ -14,7 +14,7 @@ function createMeme(e) {
 
   let remove = document.createElement("div");
   remove.className = "remove";
-  remove.innerText = "x"
+  remove.innerText = "X"
 
   let meme = document.createElement("div");
   meme.className = "meme";
